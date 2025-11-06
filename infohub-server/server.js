@@ -8,7 +8,7 @@ import quotesRoutes from "./routes/quotes.js";
 dotenv.config();
 const app = express();
 
-app.use(cors({ origin:"https://infohub-clien.onrender.com"}));
+app.use(cors({ origin:"https://infohub-jana.onrender.com"}));
 app.use(express.json());
 
 app.use("/api/weather", weatherRoutes);
