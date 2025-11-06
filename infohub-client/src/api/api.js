@@ -2,6 +2,8 @@ import axios from "axios";
 
 const API_BASE = "https://infohub-server-eml6.onrender.com";
 
+
+
 export const fetchWeather = (city) =>
   axios.get(`${API_BASE}/api/weather?city=${city}`);
 
