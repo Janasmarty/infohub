@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "https://infohub-backend-wrho.onrender.com;
+const API_BASE = "https://infohub-backend-wrho.onrender.com";
 
 
 
